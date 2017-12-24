@@ -280,7 +280,7 @@ bool BeAccessibleApp::GetSettings()
 {
 	BFile file;
 	
-	status_t status = find_directory(B_COMMON_SETTINGS_DIRECTORY, fSettingsPath);
+	status_t status = find_directory(B_USER_SETTINGS_DIRECTORY, fSettingsPath);
 	if (status != B_OK)
 		return false;
 	

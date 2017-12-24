@@ -3,6 +3,7 @@
 #include <TextControl.h>
 #include <RadioButton.h>
 #include <Button.h>
+#include <Box.h>
 
 enum { STRUCTURE_ONLY, STRUCTURE_AND_DATA };
 
