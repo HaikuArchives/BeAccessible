@@ -3,6 +3,7 @@
 #include <List.h>
 #include <Button.h>
 #include <String.h>
+#include <CheckBox.h>
 
 class DelimiterView;
 class TableView;
