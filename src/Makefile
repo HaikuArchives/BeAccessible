@@ -40,7 +40,6 @@ SRCS = \
 	TableWindow.cpp \
 	TableDataView.cpp \
 	TableDataRow.cpp \
-	SantasGiftBag/ColumnListView/ColumnListView.cpp \
 	CLVListItem.cpp \
 	CLVEasyItem.cpp \
 	CLVColumnLabelView.cpp \
@@ -65,6 +64,7 @@ SRCS = \
 	DelimiterView.cpp \
 	TableView.cpp \
 	Import.cpp \
+	SantasGiftBag/ColumnListView/ColumnListView.cpp \
 	SantasGiftBag/BetterScrollView/BetterScrollView.cpp \
 	SantasGiftBag/TextEntryAlert/TextEntryAlert.cpp \
 	SantasGiftBag/PrefilledBitmap/PrefilledBitmap.cpp \
@@ -96,7 +96,7 @@ RSRCS =
 #	- 	if your library does not follow the standard library naming scheme,
 #		you need to specify the path to the library and it's name.
 #		(e.g. for mylib.a, specify "mylib.a" or "path/mylib.a")
-LIBS = stdc++.r4 tracker be sqlite3 expat
+LIBS = $(STDCPPLIBS) tracker be sqlite3 expat
 
 #	Specify additional paths to directories following the standard libXXX.so
 #	or libXXX.a naming scheme. You can specify full paths or paths relative
@@ -108,7 +108,7 @@ LIBPATHS =
 #	Additional paths to look for system headers. These use the form
 #	"#include <header>". Directories that contain the files in SRCS are
 #	NOT auto-included here.
-SYSTEM_INCLUDE_PATHS = # /boot/develop/headers/be /boot/develop/headers/cpp /boot/develop/headers/posix /boot/develop/lib /boot/beos/system/lib
+SYSTEM_INCLUDE_PATHS = 
 
 #	Additional paths paths to look for local headers. These use the form
 #	#include "header". Directories that contain the files in SRCS are
@@ -120,7 +120,6 @@ LOCAL_INCLUDE_PATHS = \
 	SantasGiftBag/NewStrings \
 	SantasGiftBag/PrefilledBitmap \
 	SantasGiftBag/ScrollViewCorner \
-	SantasGiftBag/"Tab view" \
 	SantasGiftBag/TextEntryAlert \
 	SantasGiftBag/ColumnListView
 
