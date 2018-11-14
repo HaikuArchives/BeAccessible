@@ -1,3 +1,12 @@
+# BeAccessible
+### A database viewer and editor, by randar
+
+![screenshot](screenshot1.png)
+
+### How to build
+Simply navigate to the `src` directory and run `make`.
+
+### Notes
 There are 2 versions of the code included here:
 
 * The src directory contains the most recent code, with unreleased (and probably buggy) features.  It is based on SQLite v3. The main new features are the ability to import files and the ability to filter data in a table (by right-clicking in a cell and selecting "Filter For...").
