@@ -1,6 +1,6 @@
 #include <Region.h>
 #include <Window.h>
-#include <iostream.h>
+#include <iostream>
 #include <Picture.h>
 #include <Font.h>
 #include <stdlib.h>

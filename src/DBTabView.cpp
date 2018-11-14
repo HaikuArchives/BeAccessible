@@ -4,7 +4,7 @@
 #include "DBTabView.h"
 #endif
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 #include <vector>
 
 #include "DBListView.h"
@@ -69,7 +69,7 @@ DBTabView::DBTabView(BRect rect, const char *name)
 
 	if (BString(name) == "Table")
 	{
-		vector<BString> tables = GlobalSQLMgr->TableList();
+		std::vector<BString> tables = GlobalSQLMgr->TableList();
 		
 		for(uint i = 0; i < tables.size(); i++)
 			fListView->AddItem(new BStringItem(tables[i].String()));

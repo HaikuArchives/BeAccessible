@@ -3,7 +3,7 @@
 #include <Message.h>
 #include <CheckBox.h>
 #include <Alert.h>
-#include <iostream.h>
+#include <iostream>
 #include <vector>
 
 #include "ImportFileView.h"
@@ -130,7 +130,7 @@ ImportFileView::MessageReceived(BMessage* msg)
 			//Import, baby!
 			if(CheckForMissingData())
 			{
-				vector<BString> colNames = fPreviewView->ColumnNames();
+				std::vector<BString> colNames = fPreviewView->ColumnNames();
 				BString tableName = fTableView->Table();
 				
 				if (fTableView->IsNewTable())

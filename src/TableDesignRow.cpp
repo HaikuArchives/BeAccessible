@@ -5,7 +5,7 @@
 #include <PopUpMenu.h>
 #include <MenuItem.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "TableDesignRow.h"
 #include "MyMenuField.h"

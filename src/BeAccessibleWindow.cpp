@@ -11,7 +11,7 @@
 #include <FilePanel.h>
 #include <Path.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 #include <ClassInfo.h>
 #include <FilePanel.h>
 #include <Button.h>

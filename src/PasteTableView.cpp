@@ -2,7 +2,7 @@
 #include <Button.h>
 #include <RadioButton.h>
 #include <Box.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "PasteTableView.h"
 #include "Constants.h"

@@ -6,7 +6,7 @@
 #include <RadioButton.h>
 #include <CheckBox.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 #include <PopUpMenu.h>
 #include <MenuItem.h>
 #include <Bitmap.h>

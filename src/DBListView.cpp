@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 #include <PopUpMenu.h>
 #include <Menu.h>
 #include <MenuItem.h>
@@ -444,7 +444,7 @@ DBListView::TableOnClipboard()
 		if ((clip = be_clipboard->Data()))
 		{
 			if (clip->FindData("BeAccessibleTable", 
-			                   B_STRING_TYPE, (const void**)&text, &textLength) == B_OK)
+			                   B_STRING_TYPE, (const void**)&text, (ssize_t*)&textLength) == B_OK)
 			{
 				found = true;
 			}
@@ -471,7 +471,7 @@ DBListView::GetTableFromClipboard()
 		if ((clip = be_clipboard->Data()))
 		{
 			clip->FindData("BeAccessibleTable", 
-			               B_STRING_TYPE, (const void**)&text, &textLength);
+			               B_STRING_TYPE, (const void**)&text, (ssize_t*)&textLength);
 		}
 		be_clipboard->Unlock();
 	}

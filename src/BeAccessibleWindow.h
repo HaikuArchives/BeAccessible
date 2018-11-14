@@ -8,6 +8,7 @@
 #endif
 #include <Path.h>
 #include <Menu.h>
+#include <StorageKit.h>
 
 class BeAccessibleView;
 class sqlite;

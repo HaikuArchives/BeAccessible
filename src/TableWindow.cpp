@@ -1,6 +1,6 @@
 #include <Application.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 #include <ScrollView.h>
 #include <MenuBar.h>
 #include <MenuItem.h>

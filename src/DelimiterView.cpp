@@ -1,5 +1,5 @@
 #include <Message.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "DelimiterView.h"
 #include "PreviewView.h"
@@ -106,7 +106,7 @@ DelimiterView::MessageReceived(BMessage* msg)
 		
 		case OTHER_INVOKE_MSG:
 		{
-			cout << "OTHER_INVOKE_MSG rcvd" << endl;
+			std::cout << "OTHER_INVOKE_MSG rcvd" << std::endl;
 			break;
 		}
 		

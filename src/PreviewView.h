@@ -16,13 +16,13 @@ class PreviewView : public BView
 		void SetFieldNamesOnFirstRow(bool value);
 		
 		int NumColumns();
-		vector<BString> ColumnNames();
+		std::vector<BString> ColumnNames();
 				
 	private:
 		void DrawPreview();
 		BString GetLine(int lineNum);
 	
-		vector<BString> fPreviewLines;
+		std::vector<BString> fPreviewLines;
 		BString fDelimiter;
 		bool fFieldNamesOnFirstRow;
 		ColumnListView* fColumnListView;

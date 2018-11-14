@@ -17,7 +17,7 @@ class ColumnMapping
 		//Name of current column being parsed
 		BString fColumn;
 		//Map of column names to ColumnProperties class
-		map<BString, ColumnProperties*, less<BString> > fMapping;
+		std::map<BString, ColumnProperties*, std::less<BString> > fMapping;
 		//Current element being parsed
 		CurrentElement fCurrentElement;
 };

@@ -1,6 +1,6 @@
 #include <Application.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "SQLiteManager.h"
 #include "PasteTableWindow.h"

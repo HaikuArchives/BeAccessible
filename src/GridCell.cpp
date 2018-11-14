@@ -1,6 +1,6 @@
 #include <Window.h>
 #include <InterfaceDefs.h>
-#include <iostream.h>
+#include <iostream>
 #include <TextControl.h>
 
 #include "Constants.h"

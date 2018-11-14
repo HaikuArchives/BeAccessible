@@ -1,5 +1,5 @@
 #include <Window.h>
-#include <iostream.h>
+#include <iostream>
 #include <Clipboard.h>
 
 #include "GridView.h"

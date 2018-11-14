@@ -1,5 +1,5 @@
 #include <Alert.h>
-#include <iostream.h>
+#include <iostream>
 #include <Locker.h>
 
 #include "SQLiteManager.h"
@@ -35,7 +35,7 @@ SQLiteManager::SQLiteManager(const SQLiteManager &copy)
 
 SQLiteManager::~SQLiteManager()
 {
-	cout << "~SQLiteManager() called(" << this << ")" << endl;
+	std::cout << "~SQLiteManager() called(" << this << ")" << std::endl;
 	
 	if(IsOpen())
 		Close();
@@ -62,7 +62,7 @@ SQLiteManager::Execute(const char* sql)
 	lock.Lock();
 
 	char* message = 0;
-	cout << "SQL = " << sql << endl;
+	std::cout << "SQL = " << sql << std::endl;
 	
 	int rc = sqlite3_exec(fDatabase, sql, NULL, NULL, &message);
 
@@ -209,10 +209,10 @@ SQLiteManager::CopyTableStructure(BString sourceTable, BString newTable)
 	return Execute(props.CreateTableSQL(newTable).String());
 }
 
-vector<BString>
+std::vector<BString>
 SQLiteManager::TableList()
 {
-	vector<BString> tables;
+	std::vector<BString> tables;
 	
 	const char* sql = "select name from sqlite_master where type = 'table' "
 		              "except select 'beaccessible_master' order by name asc;";
@@ -232,7 +232,7 @@ SQLiteManager::TableList()
 
 bool
 SQLiteManager::ImportTable(BString file, const char* delimiter,  BString tableName, 
-	vector<BString> &columnNames, bool ignoreFirstRow)
+	std::vector<BString> &columnNames, bool ignoreFirstRow)
 {
 	char separator[20];
 	strcpy(separator, delimiter);
@@ -506,7 +506,7 @@ RecordSet::Prepare()
 {
 	int rc = sqlite3_prepare(fDB, fSQL.String(), fSQL.Length(), &fStmt, NULL);
 	
-	cout << "SQL = " << fSQL.String() << endl;
+	std::cout << "SQL = " << fSQL.String() << std::endl;
 	
 	if (rc != SQLITE_OK)
 	{

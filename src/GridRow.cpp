@@ -5,7 +5,7 @@
 #include <MenuItem.h>
 #include <Alert.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "BeAccessibleApp.h"
 #include "TableProperties.h"

@@ -1,6 +1,6 @@
 #include <Message.h>
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 
 #include "ImportFileWindow.h"
 #include "ImportFileView.h"

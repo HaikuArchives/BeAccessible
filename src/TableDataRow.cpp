@@ -4,7 +4,7 @@
 #include <PopUpMenu.h>
 #include <MenuItem.h>
 #include <String.h>
-#include <iostream.h>
+#include <iostream>
 #include <Alert.h>
 
 #include "BeAccessibleApp.h"
