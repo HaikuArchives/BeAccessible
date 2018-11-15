@@ -1,20 +1,21 @@
 #include <iostream>
-#include <PopUpMenu.h>
-#include <Menu.h>
-#include <MenuItem.h>
+
 #include <Alert.h>
-#include <Window.h>
 #include <ClassInfo.h>
 #include <Clipboard.h>
+#include <Menu.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <Window.h>
 
 #include "BeAccessibleApp.h"
-#include "DBListView.h"
 #include "Constants.h"
-#include "TextEntryAlert.h"
+#include "DBListView.h"
+#include "PasteTableWindow.h"
+#include "SQLiteManager.h"
 #include "TableProperties.h"
 #include "TableWindow.h"
-#include "SQLiteManager.h"
-#include "PasteTableWindow.h"
+#include "TextEntryAlert.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 
