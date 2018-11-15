@@ -1,11 +1,12 @@
-#include <Application.h>
-#include <String.h>
 #include <iostream>
 
-#include "SQLiteManager.h"
-#include "PasteTableWindow.h"
-#include "PasteTableView.h"
+#include <Application.h>
+#include <String.h>
+
 #include "Constants.h"
+#include "PasteTableView.h"
+#include "PasteTableWindow.h"
+#include "SQLiteManager.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 
