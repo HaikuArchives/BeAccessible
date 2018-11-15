@@ -1,11 +1,12 @@
-#include <View.h>
-#include <String.h>
-#include <List.h>
 #include <vector>
 
-#include "ColumnListView.h"
+#include <List.h>
+#include <String.h>
+#include <View.h>
+
 #include "CLVColumn.h"
 #include "CLVEasyItem.h"
+#include "ColumnListView.h"
 
 class PreviewView : public BView
 {
