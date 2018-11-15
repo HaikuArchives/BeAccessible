@@ -1,5 +1,6 @@
-#include <Message.h>
 #include <iostream>
+
+#include <Message.h>
 
 #include "DelimiterView.h"
 #include "PreviewView.h"
