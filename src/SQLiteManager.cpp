@@ -1,10 +1,11 @@
-#include <Alert.h>
 #include <iostream>
+
+#include <Alert.h>
 #include <Locker.h>
 
+#include "ImportUtilities.c"
 #include "SQLiteManager.h"
 #include "TableProperties.h"
-#include "ImportUtilities.c"
 
 
 SQLiteManager::SQLiteManager()
