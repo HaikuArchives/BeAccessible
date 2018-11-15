@@ -13,10 +13,10 @@
 #include <Entry.h>
 #include <File.h>
 #include <FilePanel.h>
+#include <FindDirectory.h>
 #include <ListView.h>
 #include <Mime.h>
 #include <Path.h>
-#include <storage/FindDirectory.h>
 #include <String.h>
 
 #include "Constants.h"
