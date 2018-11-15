@@ -1,20 +1,21 @@
-#include <Region.h>
+#include <iostream>
 #include <strings.h>
-#include <Window.h>
-#include <PopUpMenu.h>
-#include <MenuItem.h>
+
 #include <Alert.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <Region.h>
 #include <String.h>
-#include <iostream.h>
+#include <Window.h>
 
 #include "BeAccessibleApp.h"
-#include "TableProperties.h"
-#include "GridView.h"
-#include "GridRow.h"
+#include "Constants.h"
 #include "GridCell.h"
 #include "GridConstants.h"
+#include "GridRow.h"
+#include "GridView.h"
 #include "NewStrings.h"
-#include "Constants.h"
+#include "TableProperties.h"
 
 
 GridRow::GridRow(GridView* view, int32 numArgs, BString** args, 

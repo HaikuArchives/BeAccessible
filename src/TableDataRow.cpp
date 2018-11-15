@@ -1,21 +1,22 @@
-#include <Region.h>
+#include <iostream>
 #include <strings.h>
-#include <Window.h>
-#include <PopUpMenu.h>
-#include <MenuItem.h>
-#include <String.h>
-#include <iostream.h>
+
 #include <Alert.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <Region.h>
+#include <String.h>
+#include <Window.h>
 
 #include "BeAccessibleApp.h"
-#include "TableProperties.h"
 #include "ColumnProperties.h"
-#include "TableDataRow.h"
-#include "TableDataCell.h"
 #include "Constants.h"
-#include "NewStrings.h"
 #include "GridConstants.h"
+#include "NewStrings.h"
 #include "SQLiteManager.h"
+#include "TableDataCell.h"
+#include "TableDataRow.h"
+#include "TableProperties.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 

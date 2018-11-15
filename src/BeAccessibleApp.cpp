@@ -1,28 +1,28 @@
+#include <iostream>
+
 #ifndef BeAccessible_Window_H
 #include "BeAccessibleWindow.h"
 #endif
 #ifndef BeAccessibleApp_H
 #include "BeAccessibleApp.h"
 #endif
-#include <String.h>
-#include <Entry.h>
-#include <Directory.h>
-#include <Path.h>
+
 #include <Alert.h>
-#include <ListView.h>
-#include <iostream.h>
-#include <FilePanel.h>
-#include <Directory.h>
-#include <File.h>
-#include <storage/FindDirectory.h>
 #include <Bitmap.h>
+#include <Directory.h>
+#include <Entry.h>
+#include <File.h>
+#include <FilePanel.h>
+#include <FindDirectory.h>
+#include <ListView.h>
 #include <Mime.h>
+#include <Path.h>
+#include <String.h>
 
-
-#include "PrefilledBitmap.h"
 #include "Constants.h"
-#include "StartWindow.h"
 #include "FileTypeIcons.h"
+#include "PrefilledBitmap.h"
+#include "StartWindow.h"
 #include "SQLiteManager.h"
 
 extern SQLiteManager* GlobalSQLMgr;

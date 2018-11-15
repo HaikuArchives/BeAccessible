@@ -6,8 +6,10 @@
 #ifndef _WINDOW_H
 #include <Window.h>
 #endif
-#include <Path.h>
+
 #include <Menu.h>
+#include <Path.h>
+#include <StorageKit.h>
 
 class BeAccessibleView;
 class sqlite;

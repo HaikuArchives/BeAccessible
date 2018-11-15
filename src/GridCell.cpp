@@ -1,12 +1,13 @@
-#include <Window.h>
+#include <iostream>
+
 #include <InterfaceDefs.h>
-#include <iostream.h>
 #include <TextControl.h>
+#include <Window.h>
 
 #include "Constants.h"
 #include "GridCell.h"
-#include "GridRow.h"
 #include "GridConstants.h"
+#include "GridRow.h"
 
 #define TEXT_INSET 1.0
 

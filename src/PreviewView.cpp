@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 
 #include "PreviewView.h"
 #include "Import.h"
@@ -78,13 +78,13 @@ PreviewView::NumColumns()
 }
 
 
-vector<BString> 
+std::vector<BString> 
 PreviewView::ColumnNames()
 {
 //do an assert(fColumnListView) here instead?
 //	if (fColumnListView)
 //	{
-		vector<BString> columns;
+		std::vector<BString> columns;
 
 		if (fFieldNamesOnFirstRow)
 		{

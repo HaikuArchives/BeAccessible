@@ -188,15 +188,15 @@ void ColumnProperties::SetSize(float size)
 void
 ColumnProperties::Print()
 {
-	cout << "name = '" << fName->String() << "'" << endl;
-	cout << "\ttype = '" << fType->String() << "'" << endl;
-	cout << "\tDefaultValue = '" << fDefaultValue->String() << "'" << endl;	
-	cout << "\tIndexName = '" << fIndexName->String() << "'" << endl;
-	cout << "\tUniqueIndex = " << fUniqueIndex << endl;
-	cout << "\tHasIndex = " << fHasIndex << endl;
-	cout << "\tRequired = " << fRequired << endl;
-	cout << "\tPrimaryKey = " << fPrimaryKey << endl;
-	cout << "\tAutoNumber = " << fAutoNumber << endl;
+	std::cout << "name = '" << fName->String() << "'" << std::endl;
+	std::cout << "\ttype = '" << fType->String() << "'" << std::endl;
+	std::cout << "\tDefaultValue = '" << fDefaultValue->String() << "'" << std::endl;	
+	std::cout << "\tIndexName = '" << fIndexName->String() << "'" << std::endl;
+	std::cout << "\tUniqueIndex = " << fUniqueIndex << std::endl;
+	std::cout << "\tHasIndex = " << fHasIndex << std::endl;
+	std::cout << "\tRequired = " << fRequired << std::endl;
+	std::cout << "\tPrimaryKey = " << fPrimaryKey << std::endl;
+	std::cout << "\tAutoNumber = " << fAutoNumber << std::endl;
 }
 
 

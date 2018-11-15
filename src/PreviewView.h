@@ -1,11 +1,12 @@
-#include <View.h>
-#include <String.h>
-#include <List.h>
 #include <vector>
 
-#include "ColumnListView.h"
+#include <List.h>
+#include <String.h>
+#include <View.h>
+
 #include "CLVColumn.h"
 #include "CLVEasyItem.h"
+#include "ColumnListView.h"
 
 class PreviewView : public BView
 {
@@ -16,13 +17,13 @@ class PreviewView : public BView
 		void SetFieldNamesOnFirstRow(bool value);
 		
 		int NumColumns();
-		vector<BString> ColumnNames();
+		std::vector<BString> ColumnNames();
 				
 	private:
 		void DrawPreview();
 		BString GetLine(int lineNum);
 	
-		vector<BString> fPreviewLines;
+		std::vector<BString> fPreviewLines;
 		BString fDelimiter;
 		bool fFieldNamesOnFirstRow;
 		ColumnListView* fColumnListView;

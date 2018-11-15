@@ -1,4 +1,5 @@
 // BeAccessibleWindow.cpp
+#include <iostream>
 
 #ifndef _APPLICATION_H
 #include <Application.h>
@@ -6,25 +7,25 @@
 #ifndef BeAccessible_Window_H
 #include "BeAccessibleWindow.h"
 #endif
-#include <MenuBar.h>
-#include <MenuItem.h>
-#include <FilePanel.h>
-#include <Path.h>
-#include <String.h>
-#include <iostream.h>
+
+#include <Button.h>
 #include <ClassInfo.h>
 #include <FilePanel.h>
-#include <Button.h>
+#include <FilePanel.h>
+#include <MenuBar.h>
+#include <MenuItem.h>
+#include <Path.h>
+#include <String.h>
 
-#include "DBListView.h"
-#include "DBTableTabView.h"
-#include "DBQueryTabView.h"
-#include "TabView.h"
-#include "DBWindow.h"
 #include "BeAccessibleApp.h"
 #include "Constants.h"
-#include "SQLiteManager.h"
+#include "DBListView.h"
+#include "DBQueryTabView.h"
+#include "DBTableTabView.h"
+#include "DBWindow.h"
 #include "ImportFileWindow.h"
+#include "SQLiteManager.h"
+#include "TabView.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 

@@ -32,9 +32,9 @@ class SQLiteManager
 		bool CopyTableData(BString sourceTable, BString newTable);
 		bool CopyTableStructure(BString sourceTable, BString newTable);
 		SQLiteManager Clone();
-		vector<BString> TableList();
+		std::vector<BString> TableList();
 		bool ImportTable(BString file, const char* delimiter,  BString tableName, 
-			vector<BString> &columnNames, bool ignoreFirstRow);
+			std::vector<BString> &columnNames, bool ignoreFirstRow);
 		RecordSet* OpenRecordSet(const char* sql);
 		
 	private:

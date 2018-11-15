@@ -1,11 +1,12 @@
-#include <TextControl.h>
+#include <iostream>
+
+#include <Box.h>
 #include <Button.h>
 #include <RadioButton.h>
-#include <Box.h>
-#include <iostream.h>
+#include <TextControl.h>
 
-#include "PasteTableView.h"
 #include "Constants.h"
+#include "PasteTableView.h"
 
 PasteTableView::PasteTableView(BRect frame)
 : BView(frame, "PasteTableView", B_FOLLOW_ALL_SIDES, B_WILL_DRAW)

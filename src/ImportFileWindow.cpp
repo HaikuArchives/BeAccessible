@@ -1,9 +1,10 @@
-#include <Message.h>
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 
-#include "ImportFileWindow.h"
+#include <Message.h>
+
 #include "ImportFileView.h"
+#include "ImportFileWindow.h"
 #include "ImportUtilities.c"
 
 //extern SQLiteManager* GlobalSQLMgr;

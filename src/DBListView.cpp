@@ -1,20 +1,21 @@
-#include <iostream.h>
-#include <PopUpMenu.h>
-#include <Menu.h>
-#include <MenuItem.h>
+#include <iostream>
+
 #include <Alert.h>
-#include <Window.h>
 #include <ClassInfo.h>
 #include <Clipboard.h>
+#include <Menu.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <Window.h>
 
 #include "BeAccessibleApp.h"
-#include "DBListView.h"
 #include "Constants.h"
-#include "TextEntryAlert.h"
+#include "DBListView.h"
+#include "PasteTableWindow.h"
+#include "SQLiteManager.h"
 #include "TableProperties.h"
 #include "TableWindow.h"
-#include "SQLiteManager.h"
-#include "PasteTableWindow.h"
+#include "TextEntryAlert.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 
@@ -444,7 +445,7 @@ DBListView::TableOnClipboard()
 		if ((clip = be_clipboard->Data()))
 		{
 			if (clip->FindData("BeAccessibleTable", 
-			                   B_STRING_TYPE, (const void**)&text, &textLength) == B_OK)
+			                   B_STRING_TYPE, (const void**)&text, (ssize_t*)&textLength) == B_OK)
 			{
 				found = true;
 			}
@@ -471,7 +472,7 @@ DBListView::GetTableFromClipboard()
 		if ((clip = be_clipboard->Data()))
 		{
 			clip->FindData("BeAccessibleTable", 
-			               B_STRING_TYPE, (const void**)&text, &textLength);
+			               B_STRING_TYPE, (const void**)&text, (ssize_t*)&textLength);
 		}
 		be_clipboard->Unlock();
 	}

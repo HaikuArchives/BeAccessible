@@ -1,14 +1,16 @@
+#include <iostream>
+#include <stdlib.h>
+
+#include <Font.h>
+#include <Picture.h>
 #include <Region.h>
 #include <Window.h>
-#include <iostream.h>
-#include <Picture.h>
-#include <Font.h>
-#include <stdlib.h>
-#include "RowSummaryView.h"
-#include "PrefilledBitmap.h"
+
 #include "GridConstants.h"
-#include "GridView.h"
 #include "GridRow.h"
+#include "GridView.h"
+#include "PrefilledBitmap.h"
+#include "RowSummaryView.h"
 #include "String.h"
 
 

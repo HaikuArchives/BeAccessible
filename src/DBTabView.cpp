@@ -1,14 +1,15 @@
 //	DBTabView.cpp
+#include <iostream>
+#include <vector>
 
 #ifndef DBTabView_H
 #include "DBTabView.h"
 #endif
-#include <String.h>
-#include <iostream.h>
-#include <vector>
 
-#include "DBListView.h"
+#include <String.h>
+
 #include "BetterScrollView.h"
+#include "DBListView.h"
 #include "SQLiteManager.h"
 
 extern SQLiteManager* GlobalSQLMgr;
@@ -69,7 +70,7 @@ DBTabView::DBTabView(BRect rect, const char *name)
 
 	if (BString(name) == "Table")
 	{
-		vector<BString> tables = GlobalSQLMgr->TableList();
+		std::vector<BString> tables = GlobalSQLMgr->TableList();
 		
 		for(uint i = 0; i < tables.size(); i++)
 			fListView->AddItem(new BStringItem(tables[i].String()));

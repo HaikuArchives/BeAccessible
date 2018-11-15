@@ -97,7 +97,7 @@ TableView::MessageReceived(BMessage* msg)
 void
 TableView::AddTablesToMenu()
 {
-	vector<BString> tables = GlobalSQLMgr->TableList();
+	std::vector<BString> tables = GlobalSQLMgr->TableList();
 
 	for(uint i = 0; i < tables.size(); i++)
 	{

@@ -29,7 +29,7 @@
 
 #include <support/ClassInfo.h> // jaf
 #include <interface/Window.h>  // jaf
-#include <iostream.h>
+#include <iostream>
 
 //******************************************************************************************************
 //**** PROJECT HEADER FILES

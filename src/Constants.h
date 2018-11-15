@@ -1,9 +1,11 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
+
 #include <String.h>
+
 #include "PrefilledBitmap.h"
 
 #define MENU_BAR_HEIGHT  18.0

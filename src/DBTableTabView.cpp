@@ -1,14 +1,15 @@
 //	DBTableTabView.cpp
+#include <iostream>
 
 #ifndef DBTableTabView_H
 #include "DBTableTabView.h"
 #endif
+
 #include <ListView.h>
 #include <String.h>
-#include <iostream.h>
-#include "Beep.h"
 
 #include "BeAccessibleApp.h"
+#include "Beep.h"
 #include "Constants.h"
 
 DBTableTabView::DBTableTabView(BRect rect, const char *name)

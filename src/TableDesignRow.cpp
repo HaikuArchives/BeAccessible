@@ -1,23 +1,24 @@
-#include <Region.h>
+#include <iostream>
 #include <strings.h>
-#include <Window.h>
-#include <MenuBar.h>
-#include <PopUpMenu.h>
-#include <MenuItem.h>
-#include <String.h>
-#include <iostream.h>
 
-#include "TableDesignRow.h"
-#include "MyMenuField.h"
-#include "NewStrings.h"
-#include "TableWindow.h"
-#include "GridView.h"
+#include <MenuBar.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <Region.h>
+#include <String.h>
+#include <Window.h>
+
+#include "BeAccessibleApp.h"
+#include "ColumnDesignView.h"
+#include "ColumnProperties.h"
+#include "Constants.h"
 #include "GridCell.h"
 #include "GridConstants.h"
-#include "Constants.h"
-#include "ColumnDesignView.h"
-#include "BeAccessibleApp.h"
-#include "ColumnProperties.h"
+#include "GridView.h"
+#include "MyMenuField.h"
+#include "NewStrings.h"
+#include "TableDesignRow.h"
+#include "TableWindow.h"
 
 TableDesignRow::TableDesignRow(GridView* view, ColumnProperties props, 
                  PrefilledBitmap** IconList, BString** args, int32* currentColumn, 

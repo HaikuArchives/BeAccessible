@@ -1,12 +1,12 @@
-#include <Window.h>
-#include <iostream.h>
+#include <iostream>
+
 #include <Clipboard.h>
+#include <Window.h>
 
-#include "GridView.h"
-#include "GridRow.h"
-#include "GridIcons.h"
 #include "GridConstants.h"
-
+#include "GridIcons.h"
+#include "GridRow.h"
+#include "GridView.h"
 
 
 GridView::GridView(BRect bounds, CLVContainerView** contView, const char* name)
