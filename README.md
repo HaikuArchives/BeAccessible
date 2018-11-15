@@ -1,7 +1,7 @@
 # BeAccessible
 ### A database viewer and editor, by randar
 
-![screenshot](screenshot1.png)
+![screenshot](beaccessible.png)
 
 ### How to build
 Simply navigate to the `src` directory and run `make`.
