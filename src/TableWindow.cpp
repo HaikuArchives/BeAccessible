@@ -1,30 +1,31 @@
-#include <Application.h>
-#include <String.h>
 #include <iostream>
-#include <ScrollView.h>
+
+#include <Alert.h>
+#include <Application.h>
+#include <Bitmap.h>
+#include <CheckBox.h>
 #include <MenuBar.h>
 #include <MenuItem.h>
-#include <Alert.h>
-#include <CheckBox.h>
-#include <TextControl.h>
-#include <Bitmap.h>
 #include <Picture.h>
 #include <PictureButton.h>
+#include <ScrollView.h>
+#include <String.h>
+#include <TextControl.h>
 
-#include "TableWindow.h"
-#include "GridView.h"
-#include "CLVColumn.h"
-#include "TableDataRow.h"
 #include "Bitmaps.h"
-#include "Constants.h"
-#include "TableDesignRow.h"
+#include "CLVColumn.h"
 #include "ColumnDesignView.h"
-#include "TextEntryAlert.h"
-#include "TableDataView.h"
-#include "TableDesignView.h"
+#include "ColumnProperties.h"
+#include "Constants.h"
+#include "GridView.h"
 #include "RowSummaryView.h"
 #include "SQLiteManager.h"
-#include "ColumnProperties.h"
+#include "TableDataRow.h"
+#include "TableDataView.h"
+#include "TableDesignRow.h"
+#include "TableDesignView.h"
+#include "TableWindow.h"
+#include "TextEntryAlert.h"
 
 extern SQLiteManager* GlobalSQLMgr;
 
