@@ -1,23 +1,24 @@
 //	ColumnDesignView.cpp
+#include <iostream>
 
 #ifndef ColumnDesignView_H
 #include "ColumnDesignView.h"
 #endif
-#include <RadioButton.h>
-#include <CheckBox.h>
-#include <String.h>
-#include <iostream>
-#include <PopUpMenu.h>
-#include <MenuItem.h>
-#include <Bitmap.h>
 
-#include "Colors.h"
-#include "DBListView.h"
-#include "BetterScrollView.h"
-#include "TableDesignRow.h"
-#include "ColumnListView.h"
+#include <Bitmap.h>
+#include <CheckBox.h>
+#include <MenuItem.h>
+#include <PopUpMenu.h>
+#include <RadioButton.h>
+#include <String.h>
+
 #include "BeAccessibleApp.h"
+#include "BetterScrollView.h"
+#include "Colors.h"
+#include "ColumnListView.h"
 #include "ColumnProperties.h"
+#include "DBListView.h"
+#include "TableDesignRow.h"
 
 
 
